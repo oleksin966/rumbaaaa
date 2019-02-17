@@ -1,0 +1,201 @@
+<?php 
+header('Content-type: text/css; charset: UTF-8');
+ ?>
+
+@media only screen and (max-width: 1100px){
+   header{
+   	width: 100%;
+   	max-height: 700px;
+   }
+   h1{
+   	font-size: 70px;
+   }
+   .main-block{
+   	height:1950px;
+   	width: 100%; 
+   	display: flex;
+   	flex-direction: column;
+   	justify-content: center;
+   }
+   .inner{
+   	margin: 0px auto;
+   }
+   .title-section h1{
+   	font-size: 60px;
+   }
+   #slider{
+   	max-width: 100%;
+   	height: 600px;
+   }
+   .blue-container{
+   	display: flex;
+   	flex-direction: column;
+   	justify-content: center;
+   	align-items: center;
+   	height:  100%;
+   	margin: 0px auto;
+   }
+   .blue-container ul li img{
+    width: 992px;
+    height: 648px;
+   }
+   footer{
+   	height: 100%;
+   }
+   .footer-main{
+   	display: flex;
+   	flex-direction: row;
+   	justify-content: space-around;
+   }
+   .footer-up{
+   	display: flex;
+   	flex-direction:column;
+   	height: 500px;
+    justify-content: space-around;
+   }
+   .footer-signs{
+   	display: flex;
+   	flex-direction:column;
+   	height: 500px;
+   	justify-content: space-around;
+
+   }
+    #slider ul li h3{
+   	width: 900px;
+   }
+   .inner-foto h2{
+   	font-size: 10px;
+   }
+
+}
+@media only screen and (max-width: 768px){
+    header{
+   	width: 100%;
+   	max-height: 700px;
+   }
+   h1{
+   	font-size: 60px;
+   }
+   .title h2{
+   	font-size: 20px;
+   }
+   .title{
+   	width: 500px;
+   }
+  
+   .blue-container ul li img{
+    width: 100%;
+    height: 400px;
+   }
+   .blue-container div span img{
+   	width: 100%;
+   	height: 400px;
+   }
+   .blue-container{
+    height: 100%;
+   }
+    #slider{
+   	max-width: 100%;
+   }
+   #slider ul li h3{
+   	width: 700px;
+   }
+   footer{
+   	height: 100%;
+
+   }
+   .footer-main{
+   	display: flex;
+   	flex-wrap: wrap;
+   	justify-content: center;
+   	align-items: center;
+   }
+
+}
+@media only screen and (max-width: 480px){
+	 header{
+   	width: 100%;
+   	height: 550px;
+   }
+   h1{
+   	font-size: 50px;
+   }
+   .title h2{
+   	font-size: 15px;
+   }
+   .title{
+   	width: 350px;
+   }
+   .title-section h1{
+   	font-size: 30px;
+   }
+   .title-section{
+   	width: 100%;
+   }
+    #slider{
+   	max-width: 100%;
+   	
+   }
+   #slider li{
+   width: 300px;
+   margin: 0 auto;
+   }
+   #slider ul li h3{
+   	width: 360px;
+   	font-size: 15px;
+   	font-family: Open sans, sans-serif;
+   }
+   #slider ul li h2{
+
+   }
+   footer{
+   	display: flex;
+   	flex-direction: column;
+   	flex-wrap: wrap;
+   }
+   .footer-up{
+     right: -35%;  
+   }
+   .footer-signs{
+   right: -35%;
+   }
+   .inner-atom-container{
+   	width: 100%;
+   }
+}
+@media only screen and (max-width: 700px){
+	.inner-foto h2{
+		font-size:10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
